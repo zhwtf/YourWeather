@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">你的天气</string>
+    <string name="app_name">HiWeather</string>
     <string name="drawer_open">Open drawer</string>
     <string name="drawer_close">Close drawer</string>
     <string name="thanks">• 郭霖:http://my.csdn.net/sinyu890807\n• stormzhang: http://stormzhang.com\n• xcc3641:http://imxie.cc\n• iconfont:http://www.iconfont.cn\n• 和风天气提供数据支持\n• 高德地图提供定位支持</string>
@@ -9,4 +9,8 @@
     <string name="friends">交个朋友</string>
     <string name="shared">分享天气</string>
     <string name="viewCode">查看源码</string>
+    <string name="near_the">Near the</string>
+    <string name="no_earthquakes">No earthquakes found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+
 </resources>

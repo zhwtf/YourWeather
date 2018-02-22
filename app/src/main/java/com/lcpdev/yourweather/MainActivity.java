@@ -164,7 +164,10 @@ public class MainActivity extends BaseActivity {
                         startActivity(intentCity);
                         break;
                     case R.id.multi_cities:
-                        Toast.makeText(MainActivity.this, "此功能再下个版本添加！", Toast.LENGTH_SHORT).show();
+                        Intent earthquakeIntent = new Intent(MainActivity.this, EarthquakeActivity.class);
+                        startActivity(earthquakeIntent);
+
+                        //Toast.makeText(MainActivity.this, "此功能再下个版本添加！", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.about:
                         Intent intentAbout =new Intent(MainActivity.this,AboutActivity.class);
