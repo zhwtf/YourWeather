@@ -169,10 +169,10 @@ public class MainActivity extends BaseActivity {
 
                         //Toast.makeText(MainActivity.this, "此功能再下个版本添加！", Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.about:
-                        Intent intentAbout =new Intent(MainActivity.this,AboutActivity.class);
-                        startActivity(intentAbout);
-                        break;
+//                    case R.id.about:
+//                        Intent intentAbout =new Intent(MainActivity.this,AboutActivity.class);
+//                        startActivity(intentAbout);
+//                        break;
                     case R.id.setting:
                         Intent intentSetting =new Intent(MainActivity.this,SettingActivity.class);
                         startActivity(intentSetting);
